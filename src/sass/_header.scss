@@ -1,0 +1,68 @@
+ul {
+    list-style: none;
+}
+.headerbg{
+    width:100%;
+    height:216px ;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(../images/tloheader.jpg);
+    
+}
+
+.img-film {
+    margin-top: 45px;
+    width: 24px;
+    height: 24px;
+}
+.filmoteka {
+
+    margin-top: 45px;
+    color: white;
+    font-size: 30px;
+    margin-right: 220px;
+}
+.header-flex {
+    display: flex;
+    flex-direction: row;
+   
+}
+.header_home{
+    margin-top: 45px;
+    color: white;
+    margin-right: 39px;
+}
+.header_library {
+    margin-top: 45px;
+    margin-right: 32px;
+    color: white;
+}
+.header_input {
+   
+    margin-top: 115px;
+    margin-right: 260px;
+}
+.input {
+    width: 394px;
+    height: 20px;
+    background: url(../images/tloinputa.png);
+opacity: 0.9;
+border: none;
+    border-bottom: 2px solid white;
+}
+
+.gallery__link {
+  
+    height: 574px;
+    width: 395px;
+    border: 10px solid black;
+}
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    
+    flex-wrap: wrap;
+}
+.margin {
+     margin: 0 auto;}
