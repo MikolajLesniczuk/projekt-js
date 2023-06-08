@@ -59,10 +59,13 @@ border: none;
     padding: 5px;
 }
 
-// .gallery__link {
-   
-//     // border: 10px solid black;
-// }
+.gallery__link {
+transition: transform 0.3s ease;
+// height: 600px;
+}
+.gallery__link:hover {
+    transform:scale(1,01) translateY(-5%);
+}
 .gallery {
     max-width: 1280px;
     margin: 0 auto;
