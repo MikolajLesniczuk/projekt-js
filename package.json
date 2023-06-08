@@ -2,10 +2,10 @@
   "name": "projekt-js",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://MikolajLesniczuk.github.io/projekt-js/",
+  "homepage": "https://MikolajLesniczuk.github.io/projekt-js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url projekt-js"
+    "build": "parcel build src/*.html --public-url/projekt-js/"
   },
   "repository": {
     "type": "git",
