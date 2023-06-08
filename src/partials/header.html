@@ -4,15 +4,41 @@
   <li>
     <a class="header_link" href="">
     <img class="img-film" src="./images/film.png"> 
-    </a>
+    
     <span class="filmoteka">Filmoteka</span>
+  </a>
+  </li>
+  <!-- <li class="header_input">
+  
+      <span>
+    <input class="input" type="submit" placeholder="Movie search                                           🔍">
+  </span>
+  
+  </li> -->
+<li class="header_input" >
+  <div class="div-form ">
+    <form class="search-form" id="search-form">
+      <input 
+      class="input"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search movies"
+      />
+      <button class="button-form" type="submit">
+          <svg class="icon-search" width="16" height="16">
+            <use href="./images/icons.svg#icon-search"></use>
+          </svg>
+      </button>
+    </form>
+    </div>
+</li>
 
+  <li class="header_home">
+    <a class="header_home" href="">HOME</a></li>
+  <li class="header_library">
+    <a class="header_library" href="">MY LIBRARY</a>
   </li>
-  <li class="header_input">
-    <input class="input" placeholder="Movie search">
-  </li>
-  <li class="header_home">HOME</li>
-  <li class="header_library">MY LIBRARY</li>
 
 </ul>    
 
@@ -22,4 +48,8 @@
   <div class="gallery-flex">
   <div class="gallery"></div>
   </div>
+</section>
+
+<section class="pagination">
+  <ul class="page-list"></ul>
 </section>
